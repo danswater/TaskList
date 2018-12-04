@@ -1,0 +1,14 @@
+/home/francis/projects/TaskList/obj/Debug/netcoreapp2.1/TaskList.csprojAssemblyReference.cache
+/home/francis/projects/TaskList/obj/Debug/netcoreapp2.1/TaskList.csproj.CoreCompileInputs.cache
+/home/francis/projects/TaskList/obj/Debug/netcoreapp2.1/TaskList.RazorAssemblyInfo.cache
+/home/francis/projects/TaskList/obj/Debug/netcoreapp2.1/TaskList.RazorAssemblyInfo.cs
+/home/francis/projects/TaskList/obj/Debug/netcoreapp2.1/TaskList.AssemblyInfoInputs.cache
+/home/francis/projects/TaskList/obj/Debug/netcoreapp2.1/TaskList.AssemblyInfo.cs
+/home/francis/projects/TaskList/bin/Debug/netcoreapp2.1/TaskList.deps.json
+/home/francis/projects/TaskList/bin/Debug/netcoreapp2.1/TaskList.runtimeconfig.json
+/home/francis/projects/TaskList/bin/Debug/netcoreapp2.1/TaskList.runtimeconfig.dev.json
+/home/francis/projects/TaskList/bin/Debug/netcoreapp2.1/TaskList.dll
+/home/francis/projects/TaskList/bin/Debug/netcoreapp2.1/TaskList.pdb
+/home/francis/projects/TaskList/obj/Debug/netcoreapp2.1/TaskList.RazorTargetAssemblyInfo.cache
+/home/francis/projects/TaskList/obj/Debug/netcoreapp2.1/TaskList.dll
+/home/francis/projects/TaskList/obj/Debug/netcoreapp2.1/TaskList.pdb

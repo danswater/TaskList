@@ -1,6 +1,6 @@
 # Tasklist
 
-A .NET core(version 2.1.403) exploration, practe and familiarization
+A .NET core(version 2.1.403) exploration, practice and familiarization
 
 ## Learnings
 - [Create WebAPI](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-2.2&tabs=visual-studio-code&viewFallbackFrom=aspnetcore-2.1)

@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TaskList</name>
+    </assembly>
+    <members>
+        <member name="M:TaskList.Controllers.TasksController.GetAll">
+            <summary>
+              Get Task List
+            </summary>
+            <returns>Returns Task item</returns>
+        </member>
+        <member name="M:TaskList.Controllers.TasksController.GetById(System.Int64)">
+            <summary>
+              Get a Task item
+            </summary>
+            <returns>Returns Task item</returns>
+            <response code="200">Returns Task item</response>
+            <response code="404">If the item is null</response>
+        </member>
+        <member name="M:TaskList.Controllers.TasksController.Create(TaskList.Models.Task)">
+             <summary>
+               Creates a Task item
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /Todo
+                 {
+                    "name": "Item1",
+                    "isComplete": true
+                 }
+            
+             </remarks>
+             <param name="item"></param>
+             <returns>A newly created Task item</returns>
+             <response code="201">Returns the newly created item</response>
+             <response code="400">If the item is null</response>
+        </member>
+        <member name="M:TaskList.Controllers.TasksController.Update(System.Int64,TaskList.Models.Task)">
+             <summary>
+               Update a Task item
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 PUT /Todo/1
+                 {
+                    "name": "Item1",
+                    "isComplete": true
+                 }
+            
+             </remarks>
+             <param name="id"></param>
+             <param name="item"></param>
+             <returns>Currently returns empty response</returns>
+             <response code="200">Returns empty response</response>
+             <response code="404">If the item is null</response>
+        </member>
+        <member name="M:TaskList.Controllers.TasksController.Delete(System.Int64)">
+            <summary>
+            Deletes a specific Task item
+            </summary>
+            <param name="id"></param>
+        </member>
+    </members>
+</doc>

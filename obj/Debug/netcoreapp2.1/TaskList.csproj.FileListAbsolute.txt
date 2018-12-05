@@ -12,3 +12,5 @@
 /home/francis/projects/TaskList/obj/Debug/netcoreapp2.1/TaskList.RazorTargetAssemblyInfo.cache
 /home/francis/projects/TaskList/obj/Debug/netcoreapp2.1/TaskList.dll
 /home/francis/projects/TaskList/obj/Debug/netcoreapp2.1/TaskList.pdb
+/home/francis/projects/TaskList/bin/Debug/netcoreapp2.1/TaskList.xml
+/home/francis/projects/TaskList/obj/Debug/netcoreapp2.1/TaskList.xml

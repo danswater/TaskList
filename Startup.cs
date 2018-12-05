@@ -26,9 +26,9 @@ namespace TaskList
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
-        {
+        {            
             services.AddDbContext<TaskListDbContext>(option =>
-              option.UseInMemoryDatabase("TodoList"));
+              option.UseMySql(Configuration.GetConnectionString("DefaultDb")));
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }

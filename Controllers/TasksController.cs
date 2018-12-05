@@ -13,12 +13,6 @@ namespace TaskList.Controllers
     public TasksController(TaskListDbContext context)
     {
       _context = context;
-
-      if (_context.Tasks.Count() == 0)
-      {
-        _context.Tasks.Add(new Task { Body = "Lorem Ipsum dolor saosin taking back sunday" });
-        _context.SaveChanges();
-      }
     }
 
     [HttpGet]

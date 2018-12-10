@@ -41,7 +41,7 @@ namespace TaskList
               {
                 Title = "TaskList API",
                 Version = "v1",
-                Description = "A .NET core(version 2.1.403) exploration, practe and familiarization",
+                Description = "A .NET core(version 2.1.403) exploration, practice and familiarization",
                 TermsOfService = "None",
                 Contact = new Contact
                 {

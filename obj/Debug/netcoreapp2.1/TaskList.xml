@@ -63,5 +63,39 @@
             </summary>
             <param name="id"></param>
         </member>
+        <member name="M:TaskList.Controllers.UsersController.GetAll">
+            <summary>
+              Get User List
+            </summary>
+            <returns>Returns User List</returns>
+        </member>
+        <member name="M:TaskList.Controllers.UsersController.GetById(System.Int64)">
+            <summary>
+              Get a User item
+            </summary>
+            <returns>Returns User item</returns>
+            <response code="200">Returns User item</response>
+            <response code="404">If the item is null</response>
+        </member>
+        <member name="M:TaskList.Controllers.UsersController.Create(TaskList.Models.User)">
+             <summary>
+               Creates a User item
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /users
+                 {
+                    "firstName": "Item1",
+                    "lastName": true,
+                    "email": "John Doe"
+                 }
+            
+             </remarks>
+             <param name="item"></param>
+             <returns>A newly created User item</returns>
+             <response code="201">Returns the newly created item</response>
+             <response code="400">If the item is null</response>
+        </member>
     </members>
 </doc>
